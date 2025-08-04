@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 5.9.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "prebuildCommand": "expo prebuild"
+    },
+    "preview": {
+      "distribution": "internal",
+      "prebuildCommand": "expo prebuild"
+    },
+    "production": {
+      "prebuildCommand": "expo prebuild"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
